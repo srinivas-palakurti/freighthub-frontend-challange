@@ -2,7 +2,6 @@
 import { SHIPMENT_ACTION_TYPES } from "../constants/constants";
 
 export const fetchShipments = () => dispatch => {
-    console.log('action');
     fetch('http://localhost:3000/shipments')
             .then(res => res.json())
             .then(shipments => 

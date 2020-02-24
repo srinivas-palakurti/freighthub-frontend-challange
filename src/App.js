@@ -6,7 +6,7 @@ import './App.css';
 // import thunk from "react-thunk";
 // import {  } from "module";
 
-import ShipmentsList from "./components/ShipmentsList";
+import ShipmentsList from "./components/ShipmentsList.jsx";
 import { Provider } from "react-redux";
 import store from './store/store';
 
